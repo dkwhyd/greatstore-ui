@@ -11,7 +11,7 @@ export default function Sidebar() {
             className="flex flex-row mb-6 cursor-pointer hover:bg-red-600 "
           >
             <div className="m-2">
-              {React.cloneElement(menu.icon, { size: 30 })}{" "}
+              {React.cloneElement(menu.icon, { size: 25 })}
             </div>
             <span className="m-2">{menu.name}</span>
           </li>
